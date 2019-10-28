@@ -11,6 +11,10 @@ Basic Features:
 - simple https GET request
 - Lcd Display Log
 
+# IDE
+
+I used the ST System Workbench (just import the SW4STM32 Directory) but you can import it with a variety of Editors
+
 # Usage
 
 1. Set up simple https server
