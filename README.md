@@ -8,6 +8,7 @@ Basic Features:
 - mbedtls
 - threaded by freertos
 - list of ca's
+- DHCP w/ Lwip
 - simple https GET request
 - Lcd Display Log
 
