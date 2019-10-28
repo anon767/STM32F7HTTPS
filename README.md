@@ -1,8 +1,8 @@
 # STM32F7HTTPS
 
 This is a simple HTTPS Client for the STM32F7 MCU by ST.
-For some reasons there is no sample mbedtls client/server project included for this Controller hence this project.
-Tested with the STM32F746NG Discovery Kit (no hardware acceleration :( ).
+For some reasons there is no sample mbedtls client/server project included for this Controller ... hence this project.
+Tested with the STM32F746NG Discovery Kit (no crypto hardware acceleration :( ).
 Basic Features:
 
 - mbedtls
