@@ -142,10 +142,9 @@ static void StartThread(void const * argument)
 
 #endif
   osDelay(9500);
- // osThreadDef(CLIENT, sendhttp, osPriorityRealtime, 0, configMINIMAL_STACK_SIZE * 5);
- // osThreadCreate (osThread(CLIENT), NULL);
- // sendhttp();
-  SSL_Client();
+ osThreadDef(CLIENT, SSL_Client, osPriorityRealtime, 0, configMINIMAL_STACK_SIZE * 5);
+ osThreadCreate (osThread(CLIENT), NULL);
+  //SSL_Client();
   for( ;; )
   {
     /* Delete the Init Thread */ 
